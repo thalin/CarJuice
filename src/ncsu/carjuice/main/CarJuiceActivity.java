@@ -2,7 +2,7 @@ package ncsu.carjuice.main;
 
 import android.app.Activity;
 import android.os.Bundle;
-//A comment
+//Test comment
 public class CarJuiceActivity extends Activity {
     /** Called when the activity is first created. */
     @Override

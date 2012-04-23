@@ -18,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Name should follow package name -->
+        <activity android:name="ncsu.carjuice.main.SearchableActivity" />
     </application>
 
 </manifest>

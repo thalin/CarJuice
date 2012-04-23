@@ -8,7 +8,7 @@ import android.widget.EditText;
 //Test comment
 public class CarJuiceActivity extends Activity {
 	
-	public final static String EXTRA_MESSAGE = "com.example.myapp.MESSAGE";
+	public final static String EXTRA_MESSAGE = "ncsu.carjuice.main.MESSAGE";
 
     /** Called when the activity is first created. */
     @Override
@@ -17,7 +17,7 @@ public class CarJuiceActivity extends Activity {
         setContentView(R.layout.main);
     }
     
-    /** Called when the user selects the Send button */
+    /** Called when the user selects the Send button.
     public void sendMessage(View view) {
         // Do something in response to button
     	Intent intent = new Intent(this, SearchQueryActivity.class);
@@ -27,4 +27,5 @@ public class CarJuiceActivity extends Activity {
     	//Starts instance of the activity called by intent parameter, in this case: DisplayMessageActivity
     	startActivity(intent);
     }
+    */
 }

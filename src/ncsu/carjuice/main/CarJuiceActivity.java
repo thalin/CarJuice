@@ -9,5 +9,6 @@ public class CarJuiceActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        //another comment
     }
 }

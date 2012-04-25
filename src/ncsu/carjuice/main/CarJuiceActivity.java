@@ -26,7 +26,7 @@ public class CarJuiceActivity extends Activity {
     public void sendMessage(View view) {
     	
         // Do something in response to button
-    	Intent intent = new Intent(this, ResultsListActivity.class);
+    	Intent intent = new Intent(this, CarJuiceActivity.class);
     	
     	/*This is code for grabbing the text out of a text box on the main page,
     	 * not currently in use but in case we need to go back to that route...

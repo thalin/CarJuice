@@ -24,9 +24,6 @@
                    android:value=".SearchableActivity" />
         </activity>
         
-        <!-- Name should follow package name -->
-        <activity android:name="ncsu.carjuice.main.SearchQueryActivity" />
-        
         <!-- Searchable Activity declaration -->
         <activity android:name=".SearchableActivity" >
         <intent-filter>

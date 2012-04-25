@@ -17,15 +17,17 @@ public class CarJuiceActivity extends Activity {
         setContentView(R.layout.main);
     }
     
-    /** Called when the user selects the Send button.
+
     public void sendMessage(View view) {
         // Do something in response to button
-    	Intent intent = new Intent(this, SearchQueryActivity.class);
+    	Intent intent = new Intent(this, ResultsListActivity.class);
+    	/*
     	EditText editText = (EditText) findViewById(R.id.edit_message);
     	String message = editText.getText().toString();
     	intent.putExtra(EXTRA_MESSAGE, message);
+    	*/
     	//Starts instance of the activity called by intent parameter, in this case: DisplayMessageActivity
     	startActivity(intent);
     }
-    */
+    
 }
